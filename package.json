@@ -6,15 +6,17 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "oxlint",
-    "preview": "vite preview"
+    "start": "serve -s dist -l $PORT",
+    "preview": "vite preview",
+    "lint": "oxlint"
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
     "react": "^19.2.7",
     "react-bootstrap": "^2.10.10",
     "react-dom": "^19.2.7",
-    "react-router-dom": "^7.18.1"
+    "react-router-dom": "^7.18.1",
+    "serve": "^14.2.6"
   },
   "devDependencies": {
     "@types/react": "^19.2.17",
